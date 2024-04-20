@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  img {
+    max-width: 100%;
+    padding-bottom: 20px;
+  }
+
+  body {
+    background-color: #e7c0c7;
+    font-family: "Poppins", sans-serif;
+  }
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  background-color: #fff;
+  border: #fff solid 30px;
+  border-radius: 20px;
+}
+
+.preperation {
+  transform: translateX(20px);
+  background-color: #f1dade;
+  padding: 30px;
+}
+.Nutrition {
+  display: flex;
+  justify-content: space-around;
+}
